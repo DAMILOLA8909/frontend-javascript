@@ -4,13 +4,13 @@
 /// <reference path="./subjects/React.ts" />
 /// <reference path="./subjects/Java.ts" />
 
-// Export constants as required
-export const cpp = new Subjects.Cpp();
-export const java = new Subjects.Java();
-export const react = new Subjects.React();
+// Export constants as required - without Subjects namespace
+export const cpp = new Cpp();
+export const java = new Java();
+export const react = new React();
 
 // Export teacher object with experienceTeachingC = 10
-export const cTeacher: Subjects.Teacher = {
+export const cTeacher: Teacher = {
   firstName: 'John',
   lastName: 'Doe',
   experienceTeachingC: 10
