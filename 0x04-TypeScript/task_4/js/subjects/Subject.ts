@@ -6,7 +6,7 @@
  */
 namespace Subjects {
   export class Subject {
-    private _teacher: Teacher;
+    teacher: Teacher;
 
     /**
      * Setter method for teacher
